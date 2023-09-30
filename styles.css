@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+}
+
+#current-image-container{
+    background-color: black;
+    color: white;
+    margin:7.5px;
+    margin-inline:12.5px;
+    width: max-content;
+    height: max-content;
+}
+
+#current-image-container >h1{
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+#current-image-container > img{
+    padding-inline:7px;
+    padding-left: 20px;
+}
+#current-image-container > p{
+    padding-inline: 45px;
+    width: 1090px;
+    height: inherit;
+    padding-bottom: 20px;
+}
+#current-image-container > h2{
+    padding-inline: 35px !important;
+}
+
+h2{
+    margin: 7.5px;
+    margin-inline:12.5px;
+}
+#search-form{
+    display: flex;
+    flex-direction: row;
+    margin:7.5px;
+}
+
+#search-form > p,input,button{
+    margin:5px;
+}
